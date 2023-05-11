@@ -158,6 +158,22 @@ hr{
 
 
 
+/* HOVER */
+
+.hover-img{
+    display: none;
+}
+
+.column-main:hover .hover-img{
+    display: block;
+}
+.column-main:hover img:not(.hover-img){
+    display: none;
+}
+
+
+
+
 /* FOOTER */
 
 
