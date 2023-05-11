@@ -12,3 +12,90 @@
 
 /* GENERAL */
 
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+}
+
+.row-main{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+/* HEADER */
+
+header{
+    background-color: #FF6901;  
+    /* position: fixed;   */
+}
+
+#row-1{
+    padding: 15px;
+}
+
+.row .column-header{
+    width: calc(100% / 3);
+}
+
+.row .column-header img{
+    width: 150px;
+    position: relative;
+    left: 50%;
+    top: 0%;
+}
+
+.row .column-header p{
+    text-align: center;
+    color: white;
+    position: relative;
+    top: 10px;
+    left: 0%;
+}
+
+.row .column-header i{
+    text-align: center;
+    color: white;
+    position: relative;
+    top: 10px;
+    left: 50%;
+    padding-left: 10px;
+}
+
+
+
+
+/* MAIN */
+.column-main
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* DEBUG */
+
+.debug{
+    background-color: black;
+    color: white;
+}
