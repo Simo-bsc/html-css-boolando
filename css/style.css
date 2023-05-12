@@ -51,7 +51,11 @@ body{
 
 header{
     background-color: #FF6901;  
-    /* position: fixed;   */
+    position: fixed; 
+    top: 0;
+    left: 0;
+    width: 100%;  
+    z-index: 1;
 }
 
 #row-1{
@@ -100,6 +104,12 @@ hr{
 
 
 /* MAIN */
+
+main{
+    margin-top: 60px;
+}
+
+
 .column-main{
     width: calc(100% / 3);
     position: relative;
@@ -151,6 +161,8 @@ hr{
     right: 0%;
     top: 20px;
 }
+
+
 
 
 
